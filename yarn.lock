@@ -267,8 +267,10 @@ asap@^2.0.3, asap@~2.0.3:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.5.tgz#522765b50c3510490e52d7dcfe085ef9ba96958f"
 
 asn1@~0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
+  dependencies:
+    safer-buffer "~2.1.0"
 
 assert-plus@^0.2.0:
   version "0.2.0"
@@ -1135,8 +1137,8 @@ batch@0.5.3:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.5.3.tgz#3f3414f380321743bfc1042f9a83ff1d5824d464"
 
 bcrypt-pbkdf@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz#63bc5dcb61331b92bc05fd528953c33462a06f8d"
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
   dependencies:
     tweetnacl "^0.14.3"
 
@@ -2160,10 +2162,11 @@ eazy-logger@3.0.2:
     tfunk "^3.0.1"
 
 ecc-jsbn@~0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
   dependencies:
     jsbn "~0.1.0"
+    safer-buffer "^2.1.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -2509,6 +2512,10 @@ esprima@2.7.x, esprima@^2.6.0, esprima@^2.7.1:
 esprima@^3.1.1:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-3.1.3.tgz#fdca51cee6133895e3c88d535ce49dbff62a4633"
+
+esprima@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
 
 esprima@~3.0.0:
   version "3.0.0"
@@ -3014,8 +3021,8 @@ get-window@^1.1.1:
     get-document "1"
 
 getpass@^0.1.1:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.6.tgz#283ffd9fc1256840875311c1b60e8c40187110e6"
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
 
@@ -4147,12 +4154,6 @@ jju@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/jju/-/jju-1.3.0.tgz#dadd9ef01924bc728b03f2f7979bdbd62f7a2aaa"
 
-jodid25519@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/jodid25519/-/jodid25519-1.0.2.tgz#06d4912255093419477d425633606e0e90782967"
-  dependencies:
-    jsbn "~0.1.0"
-
 js-base64@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -4167,6 +4168,13 @@ js-yaml@3.x, js-yaml@^3.4.3, js-yaml@^3.5.1, js-yaml@^3.7.0:
   dependencies:
     argparse "^1.0.7"
     esprima "^3.1.1"
+
+js-yaml@^3.8.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
 
 js-yaml@~3.7.0:
   version "3.7.0"
@@ -4829,9 +4837,9 @@ marked@^0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
 
-"markup-it@git+https://github.com/cassiozen/markup-it.git":
-  version "2.4.0"
-  resolved "git+https://github.com/cassiozen/markup-it.git#35e17a9ebf23d7f6bffcf8a673a6c1b467b6177d"
+markup-it@^2.0.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/markup-it/-/markup-it-2.5.0.tgz#239bb2f445b4c8664af8527168ee3c00bc0d451c"
   dependencies:
     escape-string-regexp "^1.0.5"
     html-entities "^1.2.0"
@@ -5059,16 +5067,18 @@ netlify-auth-js@^0.5.5:
   dependencies:
     micro-api-client "^2.0.0"
 
-netlify-cms@^0.3.9:
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-0.3.9.tgz#972b22527b5f33303cdd2ee9d9cea2cfd274d1aa"
+netlify-cms@^0.3.12:
+  version "0.3.22"
+  resolved "https://registry.yarnpkg.com/netlify-cms/-/netlify-cms-0.3.22.tgz#e5c7c533b3af9029fe576512dc1c45b169e55937"
   dependencies:
     "@kadira/storybook" "^1.36.0"
     autoprefixer "^6.3.3"
     babel-plugin-transform-builtin-extend "^1.1.0"
+    classnames "^2.2.5"
     dateformat "^1.0.12"
     deep-equal "^1.0.1"
     fuzzy "^0.1.1"
+    history "^2.1.2"
     immutability-helper "^2.0.0"
     immutable "^3.7.6"
     jest "^17.0.0"
@@ -5078,12 +5088,15 @@ netlify-cms@^0.3.9:
     jwt-decode "^2.1.0"
     localforage "^1.4.2"
     lodash "^4.13.1"
-    markup-it "git+https://github.com/cassiozen/markup-it.git"
+    markup-it "^2.0.0"
     material-design-icons "^3.0.1"
     moment "^2.11.2"
     netlify-auth-js "^0.5.5"
     normalize.css "^4.2.0"
     pluralize "^3.0.0"
+    preliminaries "1.1.0"
+    preliminaries-parser-toml "1.1.0"
+    preliminaries-parser-yaml "1.1.0"
     prismjs "^1.5.1"
     prosemirror-commands "^0.16.0"
     prosemirror-history "^0.16.0"
@@ -5114,6 +5127,7 @@ netlify-cms@^0.3.9:
     react-simple-dnd "^0.1.2"
     react-sortable "^1.2.0"
     react-split-pane "^0.1.57"
+    react-textarea-autosize-inputref "^4.1.0"
     react-toolbox "^1.2.1"
     react-topbar-progress-indicator "^1.0.0"
     react-waypoint "^3.1.3"
@@ -6130,6 +6144,23 @@ postcss@~5.0.14:
     source-map "^0.5.5"
     supports-color "^3.1.2"
 
+preliminaries-parser-toml@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/preliminaries-parser-toml/-/preliminaries-parser-toml-1.1.0.tgz#00cacf5ab619561380e0f6f2495b2ec449b8e70e"
+  dependencies:
+    toml "^2.3.2"
+    toml-js "0.0.8"
+
+preliminaries-parser-yaml@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/preliminaries-parser-yaml/-/preliminaries-parser-yaml-1.1.0.tgz#cd0968d10e0220f55477cc8cbeb428aa27e9f84f"
+  dependencies:
+    js-yaml "^3.8.1"
+
+preliminaries@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/preliminaries/-/preliminaries-1.1.0.tgz#28ceb5f988b83594de0a7b155124693b0c4a777f"
+
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
@@ -6585,6 +6616,10 @@ react-split-pane@^0.1.57:
 react-style-proptype@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/react-style-proptype/-/react-style-proptype-1.4.0.tgz#d82c4093b73767e3efaacba013cea22a50e7b5ee"
+
+react-textarea-autosize-inputref@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-textarea-autosize-inputref/-/react-textarea-autosize-inputref-4.1.0.tgz#4a12921f9c992a8e2c6ce569ab46982a96ca48f6"
 
 react-themeable@^1.1.0:
   version "1.1.0"
@@ -7060,6 +7095,10 @@ rx@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/rx/-/rx-4.1.0.tgz#a5f13ff79ef3b740fe30aa803fb09f98805d4782"
 
+safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+
 sane@^1.3.3, sane@~1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/sane/-/sane-1.4.1.tgz#88f763d74040f5f0c256b6163db399bf110ac715"
@@ -7403,18 +7442,17 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
 sshpk@^1.7.0:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/sshpk/-/sshpk-1.10.2.tgz#d5a804ce22695515638e798dbe23273de070a5fa"
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/sshpk/-/sshpk-1.16.1.tgz#fb661c0bef29b39db40769ee39fa70093d6f6877"
   dependencies:
     asn1 "~0.2.3"
     assert-plus "^1.0.0"
-    dashdash "^1.12.0"
-    getpass "^0.1.1"
-  optionalDependencies:
     bcrypt-pbkdf "^1.0.0"
+    dashdash "^1.12.0"
     ecc-jsbn "~0.1.1"
-    jodid25519 "^1.0.0"
+    getpass "^0.1.1"
     jsbn "~0.1.0"
+    safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
 stack-source-map@^1.0.5:
@@ -7773,6 +7811,14 @@ to-arraybuffer@^1.0.0:
 to-fast-properties@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.2.tgz#f3f5c0c3ba7299a7ef99427e44633257ade43320"
+
+toml-js@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/toml-js/-/toml-js-0.0.8.tgz#648ea6f1a4d63b19c0bb30b8ed03e40d09473b0a"
+
+toml@^2.3.2:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/toml/-/toml-2.3.6.tgz#25b0866483a9722474895559088b436fd11f861b"
 
 topbar@^0.1.3:
   version "0.1.3"
